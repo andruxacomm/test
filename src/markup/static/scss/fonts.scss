@@ -1,0 +1,17 @@
+/* Your custom fonts here */
+
+/* Example
+
+@include font-face('Open Sans', '../fonts/OpenSans-Italic', normal, italic, $exts: woff woff2 ttf);
+
+// Var for using custom font
+$font-1: 'Open Sans', Helvetica, Arial, sans-serif;
+*/
+
+
+@include font-face('Exo2.0-Thin', '../fonts/Exo2.0-Thin', normal, italic, $exts: woff woff2 ttf);
+$font-1: 'Exo2.0-Thin', Helvetica, Arial, sans-serif;
+
+
+@include font-face('TrebuchetMS', '../fonts/TrebuchetMS', normal, italic, $exts: woff woff2 ttf);
+$font-trebuchet: 'TrebuchetMS', Helvetica, Arial, sans-serif;

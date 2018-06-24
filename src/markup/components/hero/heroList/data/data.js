@@ -1,0 +1,2 @@
+var data = {heroList1: {
+    }};

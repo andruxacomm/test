@@ -1,0 +1,38 @@
+// Common styles of the project
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: url("../img/content/Pattern.png") repeat center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: $font-1;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.jc-center {
+    justify-content: center;
+}
+
+.jc-sp-beetween {
+    justify-content: space-between;
+}

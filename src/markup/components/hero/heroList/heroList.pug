@@ -1,0 +1,19 @@
+mixin heroList(data)
+        +e.container()&attributes(attributes)
+            +b.item.__item(class=data.status)&attributes(attributes)
+                +e.IMG.image.image-block(src=data.imageBlockUrl)
+                +e.IMG.image.image-default(src=data.imageDefaultUrl)
+                +e.IMG.image.image-active(src=data.imageActiveUrl)
+                +e.content
+                    +e.P.text-p= data.topText
+                    +e.H1.text-h1= data.title
+                    +e.H2.text-h2= data.subtitle1
+                    +e.P.text-p= data.subtitle2
+                    +e.P.text-p= data.subtitle3
+                    +e.P.text-p= data.subtitle4
+                +e.weight
+                    +e.P.weight-number=data.weightNumber
+                    +e.P.weight-text=data.unit
+                +e.description.d-flex.jc-center
+                    +e.P.description-text=data.descriptionText
+                    +e.A.description-link(src="jv0")=data.descriptionLink

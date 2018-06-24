@@ -1,0 +1,13 @@
+include heroList/heroList
+
+mixin hero(data)
+    +b.hero
+        .container.d-flex.jc-center
+            +e.H1.title Ты сегодня покормил кота?
+            +b.content.__content.d-flex.jc-center
+                each item in data.items
+                    +heroList(item)
+
+
+
+
